@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a CallPerch problem without sharing personal data.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not attach addresses, databases, sensitive logs, credentials, or signing material. Email privacy/security reports to hamradio.balancing125@simplelogin.com or kr4goj@arrl.net."
+  - type: input
+    id: version
+    attributes:
+      label: App version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
