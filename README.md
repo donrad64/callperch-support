@@ -1,13 +1,18 @@
-# CallPerch support
+# CallPerch support and Linux downloads
 
 Created with love by KR4GOJ.
 
-- [Support](https://donrad64.github.io/callperch/)
+- [Linux downloads](https://github.com/donrad64/callperch-support/releases/latest)
+- [Support and getting started](https://donrad64.github.io/callperch/)
 - [Privacy policy](https://donrad64.github.io/callperch/privacy.html)
 - [Report a bug](https://github.com/donrad64/callperch-support/issues/new/choose)
 
+Linux 1.2.3 adds a visible FCC sync/import progress window and collapsible assignment-history timelines with smaller orange release-estimate notes. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
+
+An upgrade uses your existing local database, preferences and watchlist. Older snapshots need Sync FCC to add identity fields for assignment-history summaries. Close other CallPerch instances before upgrading or syncing.
+
 Contact: kr4goj@arrl.net or hamradio.balancing125@simplelogin.com.
 
-Issues are public. Do not upload FCC databases, personal addresses, private logs, credentials, or signing material. Email privacy/security reports instead.
+Issues are public. Do not upload FCC databases, personal addresses, private logs, credentials, or signing material. Email privacy/security reports instead. Use synthetic examples when reporting display problems.
 
-This repository is for CallPerch support. App installers and source code are not published here.
+This public repository contains support documents and binary releases. Development source remains private. GitHub’s automatically generated source archives contain only this support repository.
