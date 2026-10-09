@@ -12,7 +12,7 @@ Linux 1.2.3 adds a visible FCC sync/import progress window and collapsible assig
 
 An upgrade uses your existing local database, preferences and watchlist. Older snapshots need Sync FCC to add identity fields for assignment-history summaries. Close other CallPerch instances before upgrading or syncing.
 
-## Raspberry Pi: sync reports only about 1.9 GiB available
+## Troubleshooting: temporary folder space during FCC sync
 
 On some Raspberry Pi systems running Debian 13 (Trixie), **Sync FCC** may report less than 12 GiB available even when the SD card or NVMe drive has plenty of free space. Debian Trixie defaults `/tmp` to a memory-backed `tmpfs`, normally capped at half of RAM. A 4 GB Pi can therefore have a roughly 2 GB `/tmp`. See the [Debian release notes](https://www.debian.org/releases/trixie/release-notes/issues.html#the-temporary-files-directory-tmp-is-now-stored-in-a-tmpfs).
 
