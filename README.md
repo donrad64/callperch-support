@@ -8,11 +8,23 @@ Created with love by KR4GOJ.
 - [Privacy policy](https://donrad64.github.io/callperch/privacy.html)
 - [Report a bug](https://github.com/donrad64/callperch-support/issues/new/choose)
 
-Linux 1.2.3 adds a visible FCC sync/import progress window and collapsible assignment-history timelines with smaller orange release-estimate notes. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
+[Linux 1.3.0](https://github.com/donrad64/callperch-support/releases/tag/v1.3.0-linux) adds callsign comparisons, snapshot-age reminders, clearer previous-callsign navigation and status labels, loading feedback, and acknowledgments. It retains the visible sync/import progress window and collapsible assignment-history timelines. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
 
 An upgrade uses your existing local database, preferences and watchlist. Older snapshots need Sync FCC to add identity fields for assignment-history summaries. Close other CallPerch instances before upgrading or syncing.
 
+## Callsign comparisons and spoken voices
+
+Compare up to ten callsigns using measured values, adjustable priorities, and personal ratings. Preview QSL/plate appearance, save named comparisons, and export CSV. Rankings and format checks do not establish FCC availability or eligibility. Drafts, ratings, and saved comparisons remain local; Delete local data removes them, while exported CSV files remain where you saved them.
+
+Linux spoken phonetics uses local eSpeak and may sound synthetic. See the [voice-quality guide](https://github.com/donrad64/callperch-linux/blob/main/docs/VOICE-QUALITY.md) for optional standalone Piper downloads. Downloaded Piper voices do not change the app's Speak phonetics button.
+
+Snapshot-age reminders encourage syncing after seven days; older snapshots are still estimates, not live FCC decisions. Dismissal lasts for the same local day and snapshot.
+
 ## Troubleshooting: temporary folder space during FCC sync
+
+**Linux 1.3.0 fixes the small /tmp issue:** sync downloads now use a temporary subfolder beside the local FCC database, with cleanup after completion, cancellation, or failure. Storage errors identify the data folder. A TMPDIR override is no longer needed for FCC sync. The 12 GiB threshold means free space on the database filesystem, not the final database size.
+
+### Older versions: Linux 1.2.3 workaround
 
 On some Raspberry Pi systems running Debian 13 (Trixie), **Sync FCC** may report less than 12 GiB available even when the SD card or NVMe drive has plenty of free space. Debian Trixie defaults `/tmp` to a memory-backed `tmpfs`, normally capped at half of RAM. A 4 GB Pi can therefore have a roughly 2 GB `/tmp`. See the [Debian release notes](https://www.debian.org/releases/trixie/release-notes/issues.html#the-temporary-files-directory-tmp-is-now-stored-in-a-tmpfs).
 
