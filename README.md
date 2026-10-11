@@ -8,7 +8,7 @@ Created with love by KR4GOJ.
 - [Privacy policy](https://donrad64.github.io/callperch/privacy.html)
 - [Report a bug](https://github.com/donrad64/callperch-support/issues/new/choose)
 
-[Linux 1.3.0](https://github.com/donrad64/callperch-support/releases/tag/v1.3.0-linux) adds callsign comparisons, snapshot-age reminders, clearer previous-callsign navigation and status labels, loading feedback, and acknowledgments. It retains the visible sync/import progress window and collapsible assignment-history timelines. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
+[Linux 1.3.1](https://github.com/donrad64/callperch-support/releases/tag/v1.3.1-linux) adds callsign comparisons, snapshot-age reminders, clearer previous-callsign navigation and status labels, loading feedback. It retains the visible sync/import progress window and collapsible assignment-history timelines. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
 
 An upgrade uses your existing local database, preferences and watchlist. Older snapshots need Sync FCC to add identity fields for assignment-history summaries. Close other CallPerch instances before upgrading or syncing.
 
