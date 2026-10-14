@@ -1,12 +1,15 @@
-# CallPerch support and Linux downloads
+# CallPerch support and downloads
 
 Created with love by KR4GOJ.
 
 - [Linux source (MIT)](https://github.com/donrad64/callperch-linux)
-- [Linux downloads](https://github.com/donrad64/callperch-support/releases/latest)
+- [Windows 1.3.2 downloads](https://github.com/donrad64/callperch-support/releases/tag/v1.3.2-windows)
+- [Linux 1.3.2 downloads](https://github.com/donrad64/callperch-support/releases/tag/v1.3.2-linux)
 - [Support and getting started](https://donrad64.github.io/callperch/)
 - [Privacy policy](https://donrad64.github.io/callperch/privacy.html)
 - [Report a bug](https://github.com/donrad64/callperch-support/issues/new/choose)
+
+Version 1.3.2 brings performance improvements and Linux enhancements, including updated runtime/resource handling and a scrolling sidebar that keeps the full logo and lower controls accessible on shorter screens. Windows and Linux executables include Python and Qt; no separate Python installation is required.
 
 [Linux 1.3.1](https://github.com/donrad64/callperch-support/releases/tag/v1.3.1-linux) adds callsign comparisons, snapshot-age reminders, clearer previous-callsign navigation and status labels, loading feedback. It retains the visible sync/import progress window and collapsible assignment-history timelines. Repeated callsign switching is a limited summary of public FCC records linked by individual FRN. It does not establish intent, improper conduct, a rule violation, former-holder eligibility, or entitlement to a callsign. Incomplete history and changed FRNs can affect results. Verify records and eligibility directly with the FCC.
 
