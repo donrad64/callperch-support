@@ -4,10 +4,12 @@ Created with love by KR4GOJ.
 
 - [Linux source (MIT)](https://github.com/donrad64/callperch-linux)
 - [Windows 1.3.2 downloads](https://github.com/donrad64/callperch-support/releases/tag/v1.3.2-windows)
-- [Linux 1.3.2 downloads](https://github.com/donrad64/callperch-support/releases/tag/v1.3.2-linux)
+- [Linux 1.3.3 downloads](https://github.com/donrad64/callperch-support/releases/tag/v1.3.3-linux)
 - [Support and getting started](https://donrad64.github.io/callperch/)
 - [Privacy policy](https://donrad64.github.io/callperch/privacy.html)
 - [Report a bug](https://github.com/donrad64/callperch-support/issues/new/choose)
+
+Linux 1.3.3 adds progress monitoring for long FCC imports without the thirty-minute import cutoff, Keep waiting / Cancel controls for suspected stalls, a larger sync window, and direct FCC ZIP download links. Existing local data is retained when upgrading.
 
 Version 1.3.2 brings performance improvements and Linux enhancements, including updated runtime/resource handling and a scrolling sidebar that keeps the full logo and lower controls accessible on shorter screens. Windows and Linux executables include Python and Qt; no separate Python installation is required.
 
